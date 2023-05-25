@@ -1,4 +1,11 @@
-/* Styling each season */
+/* Fonts */
+
+body {
+    display: block;
+}
+
+/* Styling each section */
+
 div {
     width: 100%;
 }
