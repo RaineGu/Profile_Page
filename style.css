@@ -1,5 +1,9 @@
 /* Fonts */
 
+* {
+    color: blue;
+}
+
 body {
     display: block;
 }
