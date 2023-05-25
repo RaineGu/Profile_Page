@@ -11,6 +11,7 @@ body {
 /* Styling each section */
 
 div {
+    display: block;
     width: 100%;
 }
 
