@@ -1,3 +1,9 @@
-* {
-    color: blue;
+/* Styling each season */
+
+div {
+    width: 100%;
+}
+
+.raine {
+    background-color: '#a7ed3';
 }
