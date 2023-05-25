@@ -1,37 +1,5 @@
-/* Fonts */
-
-* {
-    color: black;
-}
-
-body {
-    display: block;
-}
-
-/* Styling each section */
-
 div {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.raine {
-    background-color: "#a7ed3";
-}
-
-.spring {
-    background-color: "#c6e2e9";
-}
-
-.summer {
-    background-color: "#f1ffc4";
-}
-
-.autumn {
-    background-color: "#ffcaaf";
-}
-
-.winter {
-    background-color: "#dab894";
+ background-color: green; 
+ height: 100px;
+ width: 100px;
 }
