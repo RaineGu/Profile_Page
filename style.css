@@ -207,6 +207,7 @@ p {
 }
 
 .icon {
-  width: 10%;
-  height: 10%;
+  width: 80px;
+  height: 80px;
+  margin-left: 150px;
 }
