@@ -22,7 +22,106 @@ h1, h2{
 }
 
 img {
+  width: 50%;
+  height: 50%;
   border-radius:  50%;
+}
+
+/* Styling the top nav bar */
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  margin:  auto;
+  font-family: DM Sans;
+  position:  fixed;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 14px 6.855%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.raine_nav {
+  background-color: #a7bed3;
+  color: black;
+}
+
+.spring_nav {
+  background-color: #f1ffc4;
+  color: black;
+}
+
+.summer_nav {
+  background-color: #ffcaaf;
+  color: black;
+}
+
+.autumn_nav {
+  background-color: #dab894;
+  color: black;
+}
+
+.winter_nav {
+  background-color: #c6e2e9;
+  color: black;
+}
+
+/* Change the color of links on hover */
+.raine_nav:hover {
+  background-color: #5A7D9F;
+  color: whitesmoke;
+}
+
+.spring_nav:hover {
+  background-color: #93b5a2;
+  color: whitesmoke;
+}
+
+.summer_nav:hover {
+  background-color: #cb5438;
+  color: whitesmoke;
+}
+
+.autumn_nav:hover {
+  background-color: #875c36;
+  color: whitesmoke;
+}
+
+.winter_nav:hover {
+  background-color: #3A5874;
+  color: whitesmoke;
+}
+
+/* Add a color to the active/current link */
+.raine_nav.active {
+  background-color: #5A7D9F;
+  color: whitesmoke;
+}
+
+.spring_nav.active {
+  background-color: #93b5a2;
+  color: whitesmoke;
+}
+
+.summer_nav.active {
+  background-color: #cb5438;
+  color: whitesmoke;
+}
+
+.autumn_nav.active {
+  background-color: #875c36;
+  color: whitesmoke;
+}
+
+.winter_nav.active {
+  background-color: #3A5874;
+  color: whitesmoke;
 }
 
 /* Styling each section */
@@ -66,17 +165,17 @@ p {
 }
 
 .spring {
-    background-color: #c6e2e9;
-}
-
-.summer {
     background-color: #f1ffc4;
 }
 
-.autumn {
+.summer {
     background-color: #ffcaaf;
 }
 
-.winter {
+.autumn {
     background-color: #dab894;
+}
+
+.winter {
+    background-color: #c6e2e9;
 }
