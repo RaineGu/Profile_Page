@@ -45,7 +45,7 @@ img {
 .navbar a {
   float: left;
   text-align: center;
-  padding: 14px 6.855%;
+  padding: 14px 5%;
   text-decoration: none;
   font-size: 17px;
 }
@@ -75,6 +75,11 @@ img {
   color: black;
 }
 
+.contact_nav {
+  background-color: #ccb7e5;
+  color: black;
+}
+
 /* Change the color of links on hover */
 .raine_nav:hover {
   background-color: #5A7D9F;
@@ -98,6 +103,11 @@ img {
 
 .winter_nav:hover {
   background-color: #3A5874;
+  color: whitesmoke;
+}
+
+.contact_nav:hover {
+  background-color: #8d70b3;
   color: whitesmoke;
 }
 
@@ -127,6 +137,11 @@ img {
   color: whitesmoke;
 }
 
+.contact_nav.active {
+  background-color: #8d70b3;
+  color: whitesmoke;
+}
+
 /* Styling each section */
 
 .season {
@@ -148,6 +163,12 @@ img {
 
 .center_winter {
   margin-left: 40%;
+}
+
+.center_contact {
+  display:  flex;
+  flex-direction: row;
+  margin-left: 25%;
 }
 
 .desc {
@@ -179,4 +200,12 @@ p {
 
 .winter {
     background-color: #c6e2e9;
+}
+
+.contact {
+    background-color: #ccb7e5;
+}
+
+.icon {
+  width: 10%;
 }
